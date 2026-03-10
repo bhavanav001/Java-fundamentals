@@ -26,7 +26,7 @@ public class over {
     public static void main(String[] args) {
 
         Calculator obj1 = new Calculator();
-        System.out.println(obj1.add(10, 20));
+        System.out.println(obj1.add(20, 20));
         System.out.println(obj1.add(10, 20, 30));
 
         Calculator obj2 = new AdvancedCalculator();
