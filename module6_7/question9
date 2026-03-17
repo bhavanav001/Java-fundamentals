@@ -1,0 +1,19 @@
+A sorting algorithm is called stable if the order of equal elements remains the same after sorting.
+This means if two elements have the same value, the one that appears first in the original array will also appear first after sorting.
+
+Stable Sorting Algorithms:Merge Sort Insertion Sort,Bubble Sort
+
+Unstable Sorting Algorithms:Quick Sort,Selection Sort,Heap Sort
+Example:
+Array: (3,a), (1,b), (3,c), (2,d)
+
+After sorting based on the first value:
+
+Stable :
+(1,b), (2,d), (3,a), (3,c)
+
+Unstable :
+(1,b), (2,d), (3,c), (3,a)
+
+In the stable result, the order of elements with value 3 is preserved.
+Stability is useful when sorting objects like students by marks while keeping their roll number order unchanged.

@@ -1,0 +1,12 @@
+Bubble Sort has best case O(n) when the array is already sorted. Its average and worst case are O(n²). It uses O(1) space and it is stable.
+
+Selection Sort has O(n²) time in best, average and worst cases. It uses O(1) space and it is not stable.
+
+Insertion Sort has best case O(n) when the array is already sorted. Its average and worst case are O(n²). It uses O(1) space and it is stable.
+
+Merge Sort has O(n log n) time in best, average and worst cases. It needs O(n) extra space and it is stable.
+
+Quick Sort has O(n log n) in best and average cases, but O(n²) in the worst case. It uses O(log n) space and it is not stable.
+
+inshort:
+Merge Sort is good for large data and when stability is needed. Quick Sort is usually fast in practice. Insertion Sort and Bubble Sort work well for small or nearly sorted arrays. Selection Sort always takes O(n²) time.
